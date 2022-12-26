@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container -->
+    <div class="wrapper">
+
+        <!-- Calculator -->
+        <div class="calculator">
+            <input id="inputTxt" type="text" class="input-text">
+            <div class="wrapper-buttons">
+                <button name="sqrt" class="button"> ²√ </button>
+                <button name="factorial" class="button"> n! </button>
+                <button name="clear" class="button"> C </button>
+                <button name="clearAll" class="button"> CE </button>
+                <button name="divide" class="button"> / </button>
+            </div>
+            <div class="wrapper-buttons">
+                <button name="power" class="button"> x<sup>y</sup> </button>
+                <button name="7" class="button"> 7 </button>
+                <button name="8" class="button"> 8 </button>
+                <button name="9" class="button"> 9 </button>
+                <button name="multiply" class="button"> x </button>
+            </div>
+            <div class="wrapper-buttons">
+                <button name="pi" class="button"> π </button>
+                <button name="4" class="button"> 4 </button>
+                <button name="5" class="button"> 5 </button>
+                <button name="6" class="button"> 6 </button>
+                <button name="subtract" class="button"> - </button>
+            </div>
+            <div class="wrapper-buttons">
+                <button name="divideX" class="button"> 1/x </button>
+                <button name="1" class="button"> 1 </button>
+                <button name="2" class="button"> 2 </button>
+                <button name="3" class="button"> 3 </button>
+                <button name="add" class="button"> + </button>
+            </div>
+            <div class="wrapper-buttons">
+                <button name="mod" class="button"> mod </button>
+                <button name="clearHistory" class="button"> Delete </button>
+                <button name="0" class="button"> 0 </button>
+                <button name="," class="button"> , </button>
+                <button name="equal" class="button"> = </button>
+            </div>
+        </div>
+
+        <div class="vertical-line"></div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            History
+            <div id="calcHistory">
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

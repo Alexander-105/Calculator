@@ -240,3 +240,14 @@ function onLoad() {
 function factorial(firstOperand) {
     return (firstOperand != 1) ? firstOperand * factorial(firstOperand - 1) : 1;
 }
+
+function test(counter) {
+    counter--;
+    console.log("part 1 - " + counter);
+
+    if (counter != 0) {
+        test(counter);
+    }
+
+    console.log("part 2 - " + counter);
+}

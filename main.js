@@ -1,4 +1,3 @@
-
 window.addEventListener('load', onLoad);
 
 const calculator = {
